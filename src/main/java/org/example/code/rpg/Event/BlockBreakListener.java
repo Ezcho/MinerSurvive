@@ -21,6 +21,7 @@ import static org.bukkit.Bukkit.getLogger;
 
 public class BlockBreakListener implements Listener {
     private RPG plugin;
+    //예시 주석
     private Map<UUID, Double> playerO2 = new HashMap<>();
     private final HashMap<UUID, Integer> playerBlockCount = new HashMap<>();
     private final List<Material> trackedBlocks = Arrays.asList(
